@@ -2,6 +2,21 @@
 
 import UIKit
 
+
+let str0 = "Welecome to Syracuse"
+
+var uppercase = str0.uppercaseString
+var lowercase = str0.lowercaseString
+var capitalized = str0.capitalizedString
+
+var doller:Character = "$"
+
+let myProject=(one:"game",two:1234)
+
+myProject.one
+myProject.two
+
+
 ////////array//////////////
 
 var array = ["A","B","C","D","E"]
