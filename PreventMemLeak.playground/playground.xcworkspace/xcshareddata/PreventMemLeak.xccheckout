@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E943F59C-4A23-4310-AB9A-DA2FA9C6606B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PreventMemLeak</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D0F100E75A18964813D39145FEA78358EA7C3893</key>
+		<string>https://github.com/qingjie/playground.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PreventMemLeak.playground</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D0F100E75A18964813D39145FEA78358EA7C3893</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/qingjie/playground.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D0F100E75A18964813D39145FEA78358EA7C3893</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D0F100E75A18964813D39145FEA78358EA7C3893</string>
+			<key>IDESourceControlWCCName</key>
+			<string>playground</string>
+		</dict>
+	</array>
+</dict>
+</plist>
