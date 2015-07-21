@@ -2,29 +2,40 @@
 
 import UIKit
 
-class Student1 {
-    var name:String = ""
-    var number:Int = 0
-}
-var student1 = Student1()
-
-class Person {
-    var name:String
-    var age:Int
+class People{
+    var firstName : String = ""
+    var lastName : String = ""
+    var nickName : String = ""
     
-    init(newName:String,newAge:Int){
-        self.name = newName
-        self.age = newAge
+    var fullName:String {
+        get{
+            return nickName + " " + firstName + " " + lastName
+        }
     }
     
-    func say() -> String{
-        return "My name is \(name)"
+    var age : Int = 0 {
+        willSet {
+            println("Will set an new value \(newValue) to age")
+        }
+        didSet{
+            println("age filled changed from \(oldValue) to \(age)")
+            if age < 10 {
+                nickName = "Little"
+            }else{
+                nickName = "Big"
+            }
+        }
+    }
+    
+    func toString() -> String {
+        return "Full Name: \(fullName)" + ", Age: \(age)"
     }
 }
 
-var p = Person(newName: "qingjie",newAge: 88)
 
-println(p.say())
-
+var me = People()
+me.firstName = "Q"
+me.lastName = "Zhao"
+me.age = 88
 
 
